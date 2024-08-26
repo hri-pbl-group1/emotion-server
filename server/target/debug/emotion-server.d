@@ -1,0 +1,1 @@
+/home/jme/workspace/emotion-server/server/target/debug/emotion-server: /home/jme/workspace/emotion-server/server/src/api/hello.rs /home/jme/workspace/emotion-server/server/src/api.rs /home/jme/workspace/emotion-server/server/src/main.rs

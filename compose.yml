@@ -1,0 +1,21 @@
+services:
+  server:
+    build: ./server
+    networks:
+      - emotions-network
+    ports:
+      - 8000:8000
+
+  db:
+    image: postgres:latest
+    networks:
+      - emotions-network
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+
+networks:
+  emotions-network:
