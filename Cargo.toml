@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+sqlx = { version = "0.8.1", features = ["postgres", "chrono"] }
 axum = "0.7.5"
 serde = "1.0.209"
 tokio = { version = "1.39.3", features = ["full"] }
